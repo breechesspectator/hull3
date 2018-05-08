@@ -2,7 +2,7 @@
 #include "\idi\acre\addons\api\script_component.hpp"
 #define PUSH(ARRAY,VAL) (ARRAY) pushBack (VAL) // Fix for ACRE2's pushBack missing parens for value
 
-#include "\userconfig\hull3\log\acre.h"
+#include "\x\ark\addons\hull3\log\acre.h"
 #include "logbook.h"
 
 #define ACRE_SIDES                                  [WEST, EAST, RESISTANCE, CIVILIAN]

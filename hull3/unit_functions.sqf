@@ -1,6 +1,6 @@
 #include "hull3_macros.h"
 
-#include "\userconfig\hull3\log\unit.h"
+#include "\x\ark\addons\hull3\log\unit.h"
 #include "logbook.h"
 
 hull3_unit_fnc_init = {

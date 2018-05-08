@@ -1,6 +1,6 @@
 #include "hull3_macros.h"
 
-#include "\userconfig\hull3\log\mission.h"
+#include "\x\ark\addons\hull3\log\mission.h"
 #include "logbook.h"
 
 

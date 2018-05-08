@@ -1,6 +1,6 @@
 #include "hull3_macros.h"
 
-#include "\userconfig\hull3\log\gear.h"
+#include "\x\ark\addons\hull3\log\gear.h"
 #include "logbook.h"
 
 
