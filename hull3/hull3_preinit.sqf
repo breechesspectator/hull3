@@ -8,6 +8,7 @@ hull3_isInitialized = false;
 
 [] call compile preProcessFileLineNumbers ADDON_PATH(config_functions.sqf);
 hull3_isEnabled = ["isEnabled"] call hull3_config_fnc_getBool;
+hull3_isEnabled = hull3_isEnabled && {isClass (missionConfigFile >> "Hull3")};
 hull3_isEnabled = hull3_isEnabled && {!isClass (missionConfigFile >> "Hull_Script_Version")};
 
 if (hull3_isEnabled) then {
