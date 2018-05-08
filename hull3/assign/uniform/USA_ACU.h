@@ -1,50 +1,56 @@
 class USA_ACU {
     class Rifleman {
-        headGear = "MNP_Helmet_ACU";
+        headGear = "rhsusf_ach_helmet_ucp";
         goggles = "";
-        uniform = "MNP_CombatUniform_Ranger_C";
-        vest = "MNP_Vest_ACU_2_ARM";
-        backpack = "B_Kitbag_rgr";
+        uniform = "rhs_uniform_cu_ucp_1stcav";
+        vest = "rhsusf_iotv_ucp_Rifleman";
+        backpack = "rhsusf_assault_eagleaiii_ucp";
     };
 
     class Leader : Rifleman {
-        uniform = "MNP_CombatUniform_Ranger_E";
-        vest = "MNP_Vest_ACU_1_ARM";
+        uniform = "rhs_uniform_cu_ucp_1stcav";
+        vest = "rhsusf_iotv_ucp_Teamleader";
     };
 
     class Officer : Leader {
     };
 
     class Crew : Rifleman {
-        headGear = "H_HelmetCrew_B";
-        uniform = "MNP_CombatUniform_Ranger_E";
-        vest = "V_BandollierB_rgr_ARM";
-        backpack = "B_AssaultPack_rgr";
+        headGear = "rhsusf_cvc_green_helmet";
+        uniform = "rhs_uniform_cu_ucp_1stcav";
+        vest = "rhsusf_iotv_ucp";
+        backpack = "rhsusf_falconii";
     };
 
     class CO : Officer {
+        vest = "rhsusf_iotv_ucp_Squadleader";
     };
 
     class XO : CO {
+        vest = "rhsusf_iotv_ucp_Squadleader";
     };
 
     class SL : Officer {
+        vest = "rhsusf_iotv_ucp_Squadleader";
     };
 
     class Medic : Rifleman {
         backpack = "B_Carryall_oli";
-        uniform = "MNP_CombatUniform_Ranger_E";
+        uniform = "rhs_uniform_cu_ucp_1stcav";
+        vest = "rhsusf_iotv_ucp_Medic";
     };
 
     class FTL : Leader {
     };
 
     class AR : Rifleman {
-        uniform = "MNP_CombatUniform_Ranger_E";
+        uniform = "rhs_uniform_cu_ucp_1stcav";
+        vest = "rhsusf_iotv_ucp_SAW";
     };
 
     class AAR : Rifleman {
         backpack = "B_Carryall_oli";
+        vest = "rhsusf_iotv_ucp_SAW";
     };
 
     class RAT : Rifleman {
@@ -123,7 +129,8 @@ class USA_ACU {
     };
 
     class ENG : Rifleman {
-        uniform = "MNP_CombatUniform_Ranger_E";
+        uniform = "rhs_uniform_cu_ucp_1stcav";
+        vest = "rhsusf_iotv_ucp_Rifleman";
         backpack = "B_Carryall_oli";
     };
 
@@ -131,11 +138,11 @@ class USA_ACU {
     };
 
     class SN : Rifleman {
-        headGear = "H_Watchcap_blk";
-        goggles = "G_Bandanna_blk";
-        uniform = "MNP_CombatUniform_Ranger_E";
-        vest = "V_BandollierB_blk_ARM";
-        backpack = "B_AssaultPack_blk";
+        headGear = "rhs_Booniehat_ucp";
+        goggles = "rhsusf_shemagh_od";
+        uniform = "rhs_uniform_cu_ucp_1stcav";
+        vest = "rhsusf_iotv_ucp_Rifleman";
+        backpack = "rhsusf_assault_eagleaiii_ucp";
     };
 
     class SP : SN {
@@ -151,10 +158,9 @@ class USA_ACU {
     };
 
     class P : Crew {
-        headGear = "H_PilotHelmetHeli_O";
+        headGear = "rhsusf_hgu56p_visor_green";
         uniform = "U_B_HeliPilotCoveralls";
-        vest = "V_TacVest_oli_ARM";
-        backpack = "B_Parachute";
+        vest = "V_TacVest_oli";
     };
 
     class PCM : P {
